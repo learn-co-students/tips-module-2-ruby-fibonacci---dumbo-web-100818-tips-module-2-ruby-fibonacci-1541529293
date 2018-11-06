@@ -10,4 +10,7 @@ def fibonacci(n)
   end
 end
 
+def fib(n)
+  n < 2 ? n ? fib(n-1)+fib(n-2)
+end
 Pry.start
